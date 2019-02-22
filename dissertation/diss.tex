@@ -376,13 +376,13 @@ and make adjustments based on changes to the TeX live distribution.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Generate the index.						     %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%								     %
-% NOTE: For master's theses and reports, NOTHING is permitted to     %
-%	come between the bibliography and the vita. This section     %
-%	to generate the index (if used) MUST be moved to before      %
-%	the bibliography section.				     %
-%								     %
-\printindex%    % Include the index here. Comment out this line      %
+%       Note: pdflatex won't put in the index,
+%       and I am not sure why. If you want an
+%       index, use the Makediss program to
+%       generate it with Latex instead of
+%       pdflatex
+%	
+%\printindex%    % Include the index here. Comment out this line      %
 %		% with a percent sign if you do not want an index.   %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
