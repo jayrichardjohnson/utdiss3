@@ -30,6 +30,9 @@ Note: the original Makediss file still can be used to compile the dissertation u
 
 ## Changes from the old template...
 
+Split the template into three- one for each dissertation, report, and thesis. This will make the
+process of starting up a little easier for those very new to Latex
+
 No longer using psfig or epsfig packages, these were replaced by graphicsx. The text about
 including figures was also changed to reflect these changes. 
 
