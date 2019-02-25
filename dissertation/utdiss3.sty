@@ -584,7 +584,6 @@
     \def\DOC@TYPE{DISSERTATION}   % the document type 
                                   % is "dissertation" 
 %
-\def\previous@degrees{B.S., M.S.}
 \def\target@degree{Ph.D.}
 \def\d@gree{DOCTOR OF PHILOSOPHY}
 %
@@ -642,7 +641,6 @@
 % New definition of ti@tle.		22 Jul 2001	cwm
 \def\title#1{\def\ti@tle{\double@space{#1}}} 
 
-\def\previousdegrees#1{\def\previous@degrees{#1}}
 \def\degreeabbr#1{\def\target@degree{#1}}
 \def\degree#1{\def\d@gree{#1}}
 
@@ -877,8 +875,7 @@
     \vspace{25pt}
     \centerline{\large\bf by}
     \vspace{25pt}
-%    \centerline{\large\bf\AU@THOR, \previous@degrees}
-    \centerline{\large\bf\au@thor, \previous@degrees}
+    \centerline{\large\bf\au@thor}
     \vfill
     \begin{center}
     {\bf\DOC@TYPE}\\
