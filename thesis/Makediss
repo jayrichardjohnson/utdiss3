@@ -46,13 +46,15 @@
 #		- changed STY to utdiss2-05.sty.
 #       22 Feb 2019             Jay Johnson
 #               - added condition to open ps file with 'open' if running Mac OSX
-#               - updated to utdiss3
+#               - updated to utdiss3 and made sty only utdiss3.sty
+#       25 Feb 2019
+#               - removed previous degrees from author page
 
 
 DISS="./thesis"	# Change this to the name of your
 			# dissertation file.
 
-STY="utdiss3-05.sty"
+STY="utdiss3.sty"
 
 # Remove working files from last run.
 #
