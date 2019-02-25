@@ -52,7 +52,7 @@
 DISS="./report"	# Change this to the name of your
 			# dissertation file.
 
-STY="utdiss3-05.sty"
+STY="../utdiss3.sty"
 
 # Remove working files from last run.
 #
